@@ -1,13 +1,6 @@
 import React from 'react';
 import { useLocation, useParams, useNavigate } from 'react-router-dom';
-import {
-  Container,
-  Typography,
-  Card,
-  CardMedia,
-  Box,
-  Button
-} from '@mui/material';
+import { Container, Typography, Card, CardMedia, Box, Button } from '@mui/material';
 
 const PlantDetail = () => {
   const location = useLocation();

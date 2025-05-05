@@ -15,7 +15,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 const pages = [
   { name: 'HOME', path: '/' },
   { name: 'CATÁLOGO', path: '/catalogo' },
-  { name: 'FAVORITOS', path: '/favoritos' }
+  { name: 'ACERCA DE NOSOTROS', path: '/about' }
 ];
 
 function NavbarComponent() {
