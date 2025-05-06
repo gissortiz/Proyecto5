@@ -4,16 +4,20 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { Grid, Card, CardMedia, CardContent } from '@mui/material';
+import frases from '../data/frases.json';
+
 
 
 const Home = () => {
-  const frases = [
-    "Plantar una semilla es creer en el mañana.",
-    "Cada hoja nueva es un paso hacia la luz.",
-    "Cuidar una planta es cuidar tu paz.",
-    "Todo florece cuando es amado.",
-    "El crecimiento lleva tiempo. Sé paciente contigo misma."
-  ];
+  
+    <ul>
+    {frases.map((frases, index )=> (
+        <li key={index}>
+          <Typography>{frases}</Typography>
+        </li>
+      ))
+    }
+    </ul>
 
   const plantas = [
     {
