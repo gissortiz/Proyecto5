@@ -19,12 +19,12 @@ const Home = () => {
     {
       nombre: "Calathea",
       descripcion: "Ideal para interiores con poca luz",
-      url: "https://images.unsplash.com/photo-1592861956120-e524fc739696"
+      url: "https://thenunheadgardener.com/wp-content/uploads/images/28000000000000839-1.jpg"
     },
     {
       nombre: "Suculenta",
       descripcion: "Requiere poco riego y mucho amor",
-      url: "https://images.unsplash.com/photo-1608548662042-2199cbd4e80b"
+      url: "https://thenunheadgardener.com/wp-content/uploads/images/28000000000000390-1-600x600.jpg"
     },
     
   ];
@@ -43,20 +43,20 @@ const Home = () => {
 
   return (
     
-    <Container sx={{ paddingTop: '50px' }}>
+    <Container sx={{ paddingTop: '50px', minHeight: '80vh' }}>
       <Box textAlign="center">
-        <Typography variant="h3" gutterBottom>
-          Bienvenida a Verde en Casa
+        <Typography variant="h4" gutterBottom>
+          Bienvenidos a Verde en Casa
         </Typography>
 
         <Box sx={{ maxWidth: 600, margin: 'auto', mt: 4 }}>
           <Slider {...settings}>
             {frases.map((frase, index) => (
               <Box key={index} sx={{ px: 2 }}>
-                <Typography variant="h5" color="text.secondary">
+                <Typography variant="h6" color="text.secondary">
                   {frase}
                 </Typography>
-                <Typography variant="h4" sx={{ mt: 6, mb: 2 }} align="center">
+                <Typography variant="h5" sx={{ mt: 6, mb: 2 }} align="center">
   Plantas que inspiran 🌿
 </Typography>
 

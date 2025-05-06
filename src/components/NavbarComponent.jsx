@@ -10,7 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
+import EmojiNatureIcon from '@mui/icons-material/EmojiNature';
 
 const pages = [
   { name: 'HOME', path: '/' },
@@ -35,7 +35,7 @@ function NavbarComponent() {
         <Toolbar disableGutters>
 
           {/* LOGO VERSIÓN DESKTOP */}
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <EmojiNatureIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -93,7 +93,7 @@ function NavbarComponent() {
           </Box>
 
           {/* LOGO VERSIÓN MÓVIL */}
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          <EmojiNatureIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
