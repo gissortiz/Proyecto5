@@ -1,0 +1,43 @@
+{"frases":
+
+[
+    
+    "Plantar una semilla es creer en el mañana.",
+    "Todo florece cuando es amado.",
+    "El crecimiento lleva tiempo. Sé paciente contigo misma.",
+    "Donde hay verde, hay vida.",
+    "Cuidar una planta es cuidar tu paz.",
+    "El sol brilla para todos, pero cada flor florece a su tiempo.",
+    "La naturaleza no se apura, y aun así, todo se logra.",
+    "Una planta feliz transforma una casa en un hogar.",
+    "Cada hoja nueva es un paso hacia la luz.",
+    "Respira profundo, como lo hacen los árboles.",
+    "Tú también mereces florecer.",
+    "La calma es fértil, como la tierra bien regada.",
+    "Tu energía es como el agua: cuídala para que alimente lo bueno.",
+    "No subestimes el poder de una planta en una ventana.",
+    "La belleza crece en silencio, igual que tú."
+],
+
+
+"plantas":
+
+[
+    {
+        "nombre": "Calathea",
+        "descripcion": "Ideal para interiores con poca luz",
+        "url": "https://thenunheadgardener.com/wp-content/uploads/images/28000000000000839-1.jpg"
+    },
+    {
+        "nombre": "Suculenta",
+        "descripcion": "Requiere poco riego y mucho amor",
+        "url": "https://thenunheadgardener.com/wp-content/uploads/images/28000000000000390-1-600x600.jpg"
+    },
+    {
+        "nombre": "Hedera",
+        "descripcion": "Una enredadera perenne clásica con atractivo todo el año",
+        "url": "https://thenunheadgardener.com/wp-content/uploads/images/2020/06/10000000000001863-1.jpg"
+    }
+
+]
+}
