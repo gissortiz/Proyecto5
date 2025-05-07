@@ -1,12 +1,52 @@
-# React + Vite
+# Verde en Casa ✨🌿
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web construida con **React** que consume datos de una API de plantas y ofrece frases motivacionales relacionadas con la naturaleza. Permite explorar un catálogo, conocer el propósito del proyecto y navegar por una interfaz inspiradora y amigable.
 
-Currently, two official plugins are available:
+## 📍 Demo en vivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Accede a la versión desplegada de la app en Netlify:
+**[https://keen-malasada-a35d62.netlify.app](https://keen-malasada-a35d62.netlify.app)**
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [React Router DOM](https://reactrouter.com/)
+- [Material UI (MUI)](https://mui.com/)
+
+## 🎡 Características
+
+- Consumo de datos desde un archivo `.json` (frases + plantas)
+- Carrusel de plantas con descripciones
+- Frase motivacional aleatoria al cargar el Home
+- Navegación por rutas: Home, About, Catálogo
+- Botones de acción y diseño responsivo
+- Footer personalizado
+- Manejo de errores con Error Boundaries
+
+## ⚙️ Instalación local
+
+1. Clona este repositorio:
+```bash
+git clone https://github.com/tu-usuario/verdeen-casa.git
+```
+2. Entra al directorio del proyecto:
+```bash
+cd verdeen-casa
+```
+3. Instala las dependencias:
+```bash
+npm install
+```
+4. Inicia la aplicación en modo desarrollo:
+```bash
+npm run dev
+```
+
+## 👤 Autoría
+
+Creado por **Gissella Ortiz Chandia**
+
+---
+
+Verde en Casa 2025.
