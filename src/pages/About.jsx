@@ -1,20 +1,21 @@
 import React from 'react';
-import { Container, Typography, Box } from '@mui/material';
+import { Container, Typography, Box, Card } from '@mui/material';
 
 const About = () => {
   return (
+   
     <Container sx={{ paddingTop: '50px', minHeight: '80vh' }}>
       <Box textAlign="center">
 
-      <Box sx={{ mb: 4 }}>
+      <Box sx={{ marginBottom: 4 }}>
           <img
             src="https://thenunheadgardener.com/wp-content/uploads/images/Nunhead-4.jpg" 
             alt="Naturaleza en casa"
-            style={{ width: '100%', maxHeight: '300px', objectFit: 'cover',  objectPosition: 'top', borderRadius: '12px' }}
+            style={{ width: '100%', maxHeight: '300px', objectFit: 'cover',  objectPosition: 'top', borderRadius: '20px' }}
           />
         </Box>
 
-
+        <Box sx={{ boxShadow: 3, borderRadius: '20px' }}>
         <Typography variant="h3" gutterBottom sx={{ fontFamily: 'Montserrat', marginBottom: '20px'}}>
           Sobre Verde en Casa
         </Typography>
@@ -56,11 +57,7 @@ const About = () => {
           }}>
           Que este sea tu refugio verde. Un lugar donde florezcan tus ideas, tus pausas y tu conexión con lo esencial. 🌱
         </Typography>
-
-        <Typography variant="body1" sx={{ mt: 8, fontStyle: 'italic', maxWidth: '700px', margin: 'auto', lineHeight: 1.8 }}>
-          Esperamos que tu visita a nuestro sitio te haya servido para aprender, inspirarte o tener un momento de conexión.
-          Te agradecemos tu tiempo y esperamos verte pronto. 💚
-        </Typography>
+        </Box>
 
         <Typography variant="h6" sx={{ mt: 6 }}>
           El equipo de Verde en Casa

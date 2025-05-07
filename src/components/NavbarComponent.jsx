@@ -110,7 +110,7 @@ function NavbarComponent() {
               textDecoration: 'none',
             }}
           >
-            VERDE EN CASA
+            VC
           </Typography>
 
           {/* MENÚ VERSIÓN DESKTOP */}
