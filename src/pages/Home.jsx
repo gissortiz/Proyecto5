@@ -48,7 +48,7 @@ const Home = () => {
                     <Typography variant="h5" gutterBottom>
                       {planta.nombre}
                     </Typography>
-                    <Typography variant="body1" color="text.secondary">
+                    <Typography variant="h6" color="text.secondary">
                       {planta.descripcion}
                     </Typography>
                   </CardContent>
