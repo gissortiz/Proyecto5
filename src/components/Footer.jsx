@@ -14,16 +14,13 @@ const Footer = () => {
             }}
         >
             <Typography variant="body1">
-                Verde en Casa © {new Date().getFullYear()} — Hecho con 🫶 por Gissella Ortiz
+                Verde en Casa © {new Date().getFullYear()} — Hecho por Gissella Ortiz
             </Typography>
-            <Typography variant="caption">
-                Pasión por la naturaleza 🌻, la tecnología 💻.
-            </Typography>
+           
             <Box sx={{ mt: 2 }}>
                 <Typography variant="body2">
                     📸 Instagram: @verdeen.casa &nbsp; | &nbsp;
-                    🐦 Twitter: @verdeencasa_app &nbsp; | &nbsp;
-                    🌐 Web: www.verdeen.casa
+                    🐦 Twitter: @verdeencasa_app
                 </Typography>
             </Box>
         </Box>
