@@ -1,11 +1,11 @@
-# Verde en Casa ✨🌿
+# Verde en Casa 🌿
 
 Aplicación web construida con **React** que consume datos de una API de plantas y ofrece frases motivacionales relacionadas con la naturaleza. Permite explorar un catálogo, conocer el propósito del proyecto y navegar por una interfaz inspiradora y amigable.
 
-## 📍 Demo en vivo
+## 📍 Demo
 
 Accede a la versión desplegada de la app en Netlify:
-**[https://keen-malasada-a35d62.netlify.app](https://keen-malasada-a35d62.netlify.app)**
+**[https://deploy-preview-4--luminous-taiyaki-6e0a72.netlify.app/](https://deploy-preview-4--luminous-taiyaki-6e0a72.netlify.app/)**
 
 ## 🚀 Tecnologías utilizadas
 
@@ -43,7 +43,7 @@ npm install
 npm run dev
 ```
 
-## 👤 Autoría
+## 👤 Autor
 
 Creado por **Gissella Ortiz Chandia**
 
